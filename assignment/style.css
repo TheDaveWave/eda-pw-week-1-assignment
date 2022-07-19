@@ -16,5 +16,11 @@ p {
     font-style: italic;
 }
 /* Put a border around your image */
-
+img {
+    border-color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 45%;
+    outline: 5px solid red;
+}
 /* Change the font-family of your list */
