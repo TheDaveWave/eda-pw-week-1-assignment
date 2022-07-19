@@ -12,7 +12,9 @@ h1 {
     text-align: center;
 }
 /* Make your p tag a different color and italic */
-
+p {
+    font-style: italic;
+}
 /* Put a border around your image */
 
 /* Change the font-family of your list */
