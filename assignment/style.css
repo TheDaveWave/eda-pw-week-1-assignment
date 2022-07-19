@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+main {
+    min-height: calc(100vh - 97px - 68px);
+}
 /* Give your page a fun background color */
 body {
     background-color: cornflowerblue;
@@ -12,8 +15,15 @@ body {
 .header-footer {
     background-color: black;
     color: white;
-    float: left;
-    width: 100%;
+    outline: 5px solid white;
+}
+
+header {
+    padding: 30px;
+}
+
+footer {
+    padding: 25px;
 }
 /* Align the h1 containing your name in the center of the header*/
 h1 {
@@ -30,9 +40,23 @@ img {
     border-width: 4px;
     border-radius: 45%;
     outline: 5px solid red;
-    margin-top: 30px;
+    margin: 30px auto 30px 30px;
+}
+
+ul {
+    margin-left: 10px;
+
 }
 /* Change the font-family of your list */
 li {
     font-family: Verdana, sans-serif;
+}
+
+.sublist {
+    margin-left: 30px;
+    list-style-type: square;
+}
+
+#list-profile {
+    margin-bottom: 41px;
 }
