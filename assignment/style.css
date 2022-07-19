@@ -24,3 +24,6 @@ img {
     outline: 5px solid red;
 }
 /* Change the font-family of your list */
+li {
+    font-family: Verdana, sans-serif;
+}
