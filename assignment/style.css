@@ -1,3 +1,9 @@
+/* Change the default margins of the website */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* Give your page a fun background color */
 body {
     background-color: cornflowerblue;
@@ -6,6 +12,8 @@ body {
 .header-footer {
     background-color: black;
     color: white;
+    float: left;
+    width: 100%;
 }
 /* Align the h1 containing your name in the center of the header*/
 h1 {
@@ -22,6 +30,7 @@ img {
     border-width: 4px;
     border-radius: 45%;
     outline: 5px solid red;
+    margin-top: 30px;
 }
 /* Change the font-family of your list */
 li {
